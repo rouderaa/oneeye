@@ -1577,16 +1577,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.016 89.408) (xy 128.016 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b97048-9b10-42fe-99f0-cdd3a1fec974")
-	)
-	(wire
-		(pts
 			(xy 89.916 109.22) (xy 84.582 109.22)
 		)
 		(stroke
@@ -1737,16 +1727,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.698 89.408) (xy 128.016 89.408)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52bedd1f-3329-46f0-b4e0-e73d90aeda59")
-	)
-	(wire
-		(pts
 			(xy 99.314 124.46) (xy 84.836 124.46)
 		)
 		(stroke
@@ -1777,6 +1757,16 @@
 	)
 	(wire
 		(pts
+			(xy 131.318 86.36) (xy 131.318 112.014)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f800c96-252d-4156-b16b-9fa5aaca48c1")
+	)
+	(wire
+		(pts
 			(xy 106.172 86.868) (xy 105.918 86.868)
 		)
 		(stroke
@@ -1784,6 +1774,26 @@
 			(type default)
 		)
 		(uuid "5fa7cd6c-1079-4411-8dae-ab532e9b91aa")
+	)
+	(wire
+		(pts
+			(xy 104.648 112.014) (xy 104.648 102.108)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b94af2-472e-4042-886b-1d2e79769fbd")
+	)
+	(wire
+		(pts
+			(xy 131.318 112.014) (xy 104.648 112.014)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6af081-bb1c-48b1-bfcb-c0e6643faff3")
 	)
 	(wire
 		(pts
@@ -1927,16 +1937,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.016 86.36) (xy 132.842 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a27aa440-fbdd-4673-bb0e-53a7e474cee7")
-	)
-	(wire
-		(pts
 			(xy 117.602 85.598) (xy 117.856 85.598)
 		)
 		(stroke
@@ -1964,6 +1964,16 @@
 			(type default)
 		)
 		(uuid "a9893de9-6c91-4011-8eb2-6eface51d4ba")
+	)
+	(wire
+		(pts
+			(xy 132.842 86.36) (xy 131.318 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab32373-3d6d-4947-96e5-cca1bcac2077")
 	)
 	(wire
 		(pts
@@ -2094,6 +2104,16 @@
 			(type default)
 		)
 		(uuid "da9843c5-0d8b-4f89-98f7-bef6b5746721")
+	)
+	(wire
+		(pts
+			(xy 104.648 102.108) (xy 105.918 102.108)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd98ef9c-bef7-4ac5-a252-d42ff03289b1")
 	)
 	(wire
 		(pts
@@ -2255,6 +2275,16 @@
 		)
 		(uuid "695fae49-8254-4989-b18a-b9729c163ebf")
 	)
+	(text "Note1: io2 is connected to the flash led on the esp32-cam"
+		(exclude_from_sim no)
+		(at 137.922 116.586 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75e810fa-5e3a-49bd-b73a-022b12dece97")
+	)
 	(text "esp32-cam"
 		(exclude_from_sim no)
 		(at 114.554 107.442 0)
@@ -2294,6 +2324,16 @@
 			)
 		)
 		(uuid "d3a619a3-0be1-4a88-a0af-d24692da190f")
+	)
+	(text "Note2: io16 is connected to the CS of the video ram, do not use !"
+		(exclude_from_sim no)
+		(at 141.224 119.888 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e473d129-0417-4bf8-b2e4-94c5fd5ecf66")
 	)
 	(symbol
 		(lib_id "Motor:Motor_Servo_JR")
